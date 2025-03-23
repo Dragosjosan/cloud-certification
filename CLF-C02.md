@@ -94,3 +94,80 @@ A global content delivery network (CDN) service that securely delivers data, vid
 - Integrates with AWS Shield for DDoS protection
 - Supports custom SSL certificates for HTTPS
 - Provides real-time metrics and logs for monitoring
+
+# AWS Artifact
+
+## What is it?
+
+A central resource for compliance-related information that provides on-demand access to AWS security and compliance documents and agreements.
+
+## Key Functions
+
+- Provides downloadable AWS security and compliance documentation
+- Offers access to AWS ISO certifications, SOC reports, and PCI reports
+- Enables review and acceptance of agreements with AWS
+- Allows management of agreements for multiple accounts
+- Helps demonstrate AWS infrastructure compliance to auditors
+
+# AWS Pricing Calculator
+
+## What is it?
+
+A web-based planning tool that provides cost estimates for AWS services based on your anticipated usage patterns.
+
+## Key Functions
+
+- Creates detailed AWS cost estimates before deployment
+- Allows configuration of service parameters to match expected usage
+- Organizes estimates by groups for different use cases or projects
+- Provides itemized breakdowns of costs per service
+- Supports sharing estimates via unique URLs
+- Helps compare different deployment scenarios and their costs
+
+# Amazon Macie
+
+## What is it?
+
+A security service that uses machine learning to automatically discover, classify, and protect sensitive data stored in AWS, particularly in S3 buckets.
+
+## Key Functions
+
+- Automatically discovers and reports sensitive data (PII, credentials, financial data)
+- Continuously monitors data access activity for anomalies
+- Creates an inventory of S3 buckets with sensitivity scoring
+- Generates detailed reports of findings
+- Integrates with AWS Security Hub for centralized security management
+- Provides automated remediation options through EventBridge
+- Helps maintain compliance with regulations like GDPR, HIPAA, and PCI
+
+# AWS Global Accelerator
+
+## What is it?
+
+A networking service that improves the availability and performance of applications by using the AWS global network to optimize the path from users to applications.
+
+## Key Functions
+
+- Routes traffic through AWS's global network instead of the public internet
+- Provides static IP addresses that serve as fixed entry points to applications
+- Automatically redirects traffic to healthy endpoints during failures
+- Reduces latency by connecting users to the nearest edge location
+- Improves availability with instant failover between AWS Regions
+- Works with EC2 instances, Elastic IP addresses, ALBs, and NLBs
+- Enables blue/green deployment testing and weighted routing
+
+# AWS Config
+
+## What is it?
+
+A service that enables you to assess, audit, and evaluate the configurations of your AWS resources for compliance monitoring, resource management, and security analysis.
+
+## Key Functions
+
+- Records configuration changes to AWS resources over time
+- Evaluates resources against desired configurations using rules
+- Provides detailed configuration history of resources
+- Enables compliance auditing and security analysis
+- Stores configuration snapshots that can be used for troubleshooting
+- Integrates with other services like CloudTrail for comprehensive monitoring
+- Supports multi-account, multi-region data aggregation
